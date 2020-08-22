@@ -1,6 +1,6 @@
-def square_array(numbers)
-  numbers = [1,2,3]
-  numbers
+def square_array(array)
+  #numbers = [1,2,3]
+  
   end
   return square_numbers
 end 
