@@ -6,3 +6,8 @@ def square_array(numbers)
   end
   return sq_numbers
 end 
+
+def square_array(numbers)
+   sq_numbers = numbers.collect{|x| x ** 2}
+   return sq_numbers
+ end
