@@ -1,5 +1,6 @@
 def square_array(array)
   #numbers = [1,2,3]
+  sq_numbers = [] 
   
   end
   return square_numbers
