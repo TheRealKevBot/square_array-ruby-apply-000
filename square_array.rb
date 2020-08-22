@@ -5,7 +5,9 @@ def square_array(numbers)
     square_numbers << (number ** 2)
   new_numbers = [9,10,16,25]
   new_square_numbers = []
-  new_numbers.each do | number
+  new_numbers.each do |nnumber|
+    new_square_numbers << (nnumber ** nnumber)
   end
   return square_numbers
+  return new_square_numbers 
 end
